@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedri Usta Kalamış | Efsane Ocakbaşı & Meze</title>
+    <meta name="description" content="Bedri Usta Kalamış - Fenerbahçe kıyısında 55 çeşit meze, efsane Adana kebabı ve şık ocakbaşı deneyimi. Rezervasyon: 0216 358 20 40">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <span class="logo-name">BEDRİ USTA</span>
+                <span class="logo-sub">Kalamış · Est. 1985</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hakkimizda">Hakkımızda</a></li>
+                <li><a href="#menu">Menü</a></li>
+                <li><a href="#rezervasyon">Rezervasyon</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+            <a href="#rezervasyon" class="nav-cta">Rezervasyon</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="anasayfa">
+        <div class="hero-bg" id="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-reveal>Kalamış'ın Efsane Ocakbaşısı</div>
+            <h1 data-reveal>Ateşin Ustası,<br><span>Lezzetin Efendisi</span></h1>
+            <p class="hero-sub" data-reveal>55 çeşit meze · Adana kebabı · Kalamış kıyısı</p>
+            <div class="hero-btns" data-reveal>
+                <a href="#menu" class="btn-primary">Menüyü Keşfet</a>
+                <a href="#rezervasyon" class="btn-ghost">Masa Ayırt</a>
+            </div>
+        </div>
+        <div class="scroll-hint">Keşfet</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="hakkimizda">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-reveal>
+                    <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?q=80&w=900&auto=format&fit=crop" alt="Bedri Usta Ocakbaşı">
+                    <div class="year-badge">
+                        <span class="year">40+</span>
+                        <span class="year-text">Yıllık<br>Lezzet</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <p class="about-label" data-reveal>Hikayemiz</p>
+                    <h2 data-reveal>Kalamış'ın Kalbinde Köklü Bir Gelenek</h2>
+                    <p data-reveal>Bedri Usta, Kalamış'ın eşsiz deniz manzarası önünde, yılların verdiği tecrübe ve aşkla pişirilen lezzetleriyle 40 yılı aşkın süredir İstanbul'un en seçkin sofralarından birini sunmaktadır.</p>
+                    <p data-reveal>Odun ateşinde pişen Adana kebabımız, 55 çeşit özgün mezelerimiz ve sıcak servisimizle her ziyaret, unutulmaz bir deneyime dönüşür.</p>
+                    <div class="about-stats" data-reveal>
+                        <div class="stat">
+                            <h3>55</h3>
+                            <p>Çeşit Meze</p>
+                        </div>
+                        <div class="stat">
+                            <h3>40+</h3>
+                            <p>Yıl Deneyim</p>
+                        </div>
+                        <div class="stat">
+                            <h3>★4.7</h3>
+                            <p>Google Puanı</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-label">Lezzetlerimiz</span>
+                <h2>Seçilmiş Özel Tatlar</h2>
+            </div>
+            <div class="menu-tabs" data-reveal>
+                <button class="tab-btn active" onclick="filterMenu('kebap')">Ocakbaşı</button>
+                <button class="tab-btn" onclick="filterMenu('meze')">Mezeler</button>
+                <button class="tab-btn" onclick="filterMenu('balik')">Deniz Ürünleri</button>
+            </div>
+            <div class="menu-grid" id="menu-grid">
+                <!-- JS ile doldurulacak -->
+            </div>
+        </div>
+    </section>
+
+    <!-- RESERVATION -->
+    <section class="reservation" id="rezervasyon">
+        <div class="container">
+            <div class="reservation-wrapper">
+                <div class="reservation-info" data-reveal>
+                    <span class="section-label">Online Rezervasyon</span>
+                    <h2>Masanızı<br>Şimdi Ayırtın</h2>
+                    <p>Özel günleriniz, iş yemekleriniz ve arkadaş buluşmalarınız için Kalamış'ın efsane ocakbaşısında yerinizi garantileyin.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Münir Nurettin Selçuk Cd. No:52, Fenerbahçe, Kadıköy</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>(0216) 358 20 40</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕐</span>
+                            <span>Her gün 12:00 – 00:00</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🚗</span>
+                            <span>Vale park hizmeti mevcuttur</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="res-form" data-reveal>
+                    <h3>Rezervasyon Formu</h3>
+                    <form id="resForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Adınız Soyadınız</label>
+                                <input type="text" placeholder="Ali Yılmaz" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Telefon</label>
+                                <input type="tel" placeholder="0555 000 00 00" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Tarih</label>
+                                <input type="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Saat</label>
+                                <select required>
+                                    <option value="" disabled selected>Seçiniz</option>
+                                    <option>12:00</option>
+                                    <option>13:00</option>
+                                    <option>14:00</option>
+                                    <option>19:00</option>
+                                    <option>20:00</option>
+                                    <option>21:00</option>
+                                    <option>22:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Kişi Sayısı</label>
+                            <select required>
+                                <option value="" disabled selected>Seçiniz</option>
+                                <option>1-2 Kişi</option>
+                                <option>3-4 Kişi</option>
+                                <option>5-6 Kişi</option>
+                                <option>7-10 Kişi</option>
+                                <option>10+ Kişi (Özel Salon)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Özel İstek</label>
+                            <textarea placeholder="Doğum günü, yıl dönümü, iş yemeği..." rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Rezervasyon Yap</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="iletisim">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-name">BEDRİ USTA</span>
+                        <span class="logo-sub">Kalamış · Est. 1985</span>
+                    </div>
+                    <p>40 yılı aşkın bir geçmişle Kalamış kıyısında, her lokmada hissedilen ustalık ve tutku.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="#hakkimizda">Hakkımızda</a></li>
+                        <li><a href="#menu">Menümüz</a></li>
+                        <li><a href="#rezervasyon">Rezervasyon</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>İletişim</h4>
+                    <p>📍 Münir Nurettin Selçuk Cd. No:52<br>Fenerbahçe, Kadıköy / İstanbul</p>
+                    <p>📞 (0216) 358 20 40</p>
+                    <p>🕐 Her gün 12:00 – 00:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bedri Usta Kalamış. Tüm hakları saklıdır.</p>
+                <p>Demo Tasarım: <span style="color: var(--gold);">Liv Media Agency</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
